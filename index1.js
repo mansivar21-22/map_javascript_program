@@ -10,3 +10,15 @@ const newArray = firstname.map(function(cvalue){
 });
 console.log(firstname);
 console.log(newArray);
+
+const studentsData = [
+    {id: 1, name: "raj", degree:"MCA"},
+    {id: 2, name: "rohit", degree:"MCBA"}
+];
+
+const newData = studentsData.map((cvalue)=>{
+    return `name is ${cvalue.name}`
+}
+
+);
+console.log(newData)
